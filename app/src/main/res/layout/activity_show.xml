@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mvpframework.bwie.com.gouwuche3.ShowActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff3360"
+        android:text="商品详情"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/iv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFF3360"
+        android:text="123"
+        android:gravity="center_vertical"
+        android:id="@+id/jiaqian"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/tvBargainPrice"/>
+
+    <View
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrice"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="250dp"
+android:layout_gravity="center_horizontal"
+
+            android:layout_height="match_parent"
+
+            android:background="#FFD72121"
+            android:id="@+id/tvCart"
+            android:text="加入购物车"
+            android:gravity="center"/>
+      <!--  <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvAddCart"
+            android:layout_weight="1"
+            android:background="#33000000"
+            android:gravity="center"
+            android:text="加入购物车"
+            />-->
+    </LinearLayout>
+</LinearLayout>
